@@ -1,28 +1,36 @@
 .App {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  max-width: 100%;
+  background-color: aqua;
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+h1 {
   color: white;
 }
-
-.App-title {
-  font-size: 1.5em;
+h3 {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  align-items: stretch;
+  color: blue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-
-.App-intro {
-  font-size: large;
-}
-
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.input-form {
+  display: flex;
+  justify-content: center;
+  
+}
+form{
+
 }
