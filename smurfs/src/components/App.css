@@ -1,16 +1,22 @@
 .App {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  max-width: 100%;
   background-color: aqua;
   text-align: center;
 }
 h1 {
   color: white;
 }
-h3{
+h3 {
   display: flex;
   justify-content: center;
-  
+  align-content: space-between;
+  align-items: stretch;
   color: blue;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 @keyframes App-logo-spin {
   from {
@@ -19,4 +25,12 @@ h3{
   to {
     transform: rotate(360deg);
   }
+}
+.input-form {
+  display: flex;
+  justify-content: center;
+  
+}
+form{
+
 }
